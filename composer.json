@@ -1,0 +1,21 @@
+{
+    "name": "leobo/ghost-detector",
+    "description": "Une application permettant d'identifier plus facilement les fantômes sur Phasmophobia",
+    "type": "project",
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.38"
+    },
+    "license": "Copyleft",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Léo Bourgasser",
+            "email": "leo.bourgasser@etudiant.univ-reims.fr"
+        }
+    ],
+    "require": {}
+}
