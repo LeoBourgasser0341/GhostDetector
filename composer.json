@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "type": "project",
     "license": "proprietary",
     "minimum-stability": "stable",
@@ -99,4 +100,25 @@
         "symfony/stopwatch": "6.3.*",
         "symfony/web-profiler-bundle": "6.3.*"
     }
+=======
+    "name": "leobo/ghost-detector",
+    "description": "Une application permettant d'identifier plus facilement les fantômes sur Phasmophobia",
+    "type": "project",
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.38"
+    },
+    "license": "Copyleft",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Léo Bourgasser",
+            "email": "leo.bourgasser@etudiant.univ-reims.fr"
+        }
+    ],
+    "require": {}
+>>>>>>> 8388d7e1495073de4020903c0221d61c8abc5308
 }
