@@ -12,6 +12,11 @@
         {% for entite in entites %}
             <div class="entite">
                 <img src="{{ asset('image/Entite/'~ entite.name ~'.png') }}" alt="{{ entite.name }}"><p>{{ entite.name }}</p>
+                <div>
+                {% for clue in entite.clues %}
+                    <img src="{{ asset('image/Clue/'~ clue ~'.png') }}" alt="{{ clue }}" class="img_clue">
+                {% endfor %}
+                </div>
             </div>
         {% endfor %}
     </div>

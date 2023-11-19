@@ -19,6 +19,9 @@ class Entite
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $tips = null;
 
+    #[ORM\Column]
+    private ?array $clues = null;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -47,4 +50,21 @@ class Entite
 
         return $this;
     }
+
+    /**
+     * @return array|null
+     */
+    public function getClues(): ?array
+    {
+        return $this->clues;
+    }
+
+    /**
+     * @param array|null $clues
+     */
+    public function setClues(?array $clues): void
+    {
+        $this->clues = $clues;
+    }
+
 }

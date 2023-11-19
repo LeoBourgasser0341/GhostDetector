@@ -56,3 +56,9 @@ body{
 .clue_button.UV{
     background-image: url("/image/Clue/UV.png");
 }
+
+.img_clue{
+    height: 32px;
+    width: 32px;
+    background-size: contain;
+}

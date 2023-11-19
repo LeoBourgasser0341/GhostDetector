@@ -2,99 +2,220 @@
   "entites": [
     {
       "name": "Esprit",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Onryo",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Revenant",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Banshee",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS",
+        "SpiritBox"
+      ]
     },
     {
       "name": "Cauchemar",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Démon",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Deogen",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Djinn",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Fantôme",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Goryo",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Hantu",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Jumeaux",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Mimic",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Moroi",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Myling",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Obake",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Ombre",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Oni",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Poltergeist",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Raiju",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Spectre",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Thayé",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Yokai",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     },
     {
       "name": "Yurei",
-      "tips": "tips_test"
+      "tips": "tips_test",
+      "clues": [
+        "UV",
+        "Orbes",
+        "DOTS"
+      ]
     }
   ]
 }
