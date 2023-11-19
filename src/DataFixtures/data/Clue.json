@@ -1,0 +1,25 @@
+{
+  "clues" : [
+    {
+      "name" : "DOTS"
+    },
+    {
+      "name" : "Ecriture"
+    },
+    {
+      "name" : "Temperature"
+    },
+    {
+      "name" : "EMF5"
+    },
+    {
+      "name" : "Orbes"
+    },
+    {
+      "name" : "UV"
+    },
+    {
+      "name" : "SpiritBox"
+    }
+  ]
+}

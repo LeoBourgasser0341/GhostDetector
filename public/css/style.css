@@ -23,4 +23,36 @@ body{
     flex-direction: row;
 }
 
+.clue_button{
+    height: 128px;
+    width: 128px;
+    background-size: contain;
+}
 
+.clue_button.DOTS{
+    background-image: url("/image/Clue/DOTS.png");
+}
+
+.clue_button.Ecriture{
+    background-image: url("/image/Clue/Ecriture.png");
+}
+
+.clue_button.EMF5{
+    background-image: url("/image/Clue/EMF5.png");
+}
+
+.clue_button.Orbes{
+    background-image: url("/image/Clue/Orbes.png");
+}
+
+.clue_button.SpiritBox{
+    background-image: url("/image/Clue/SpiritBox.png");
+}
+
+.clue_button.Temperature{
+    background-image: url("/image/Clue/Temperature.png");
+}
+
+.clue_button.UV{
+    background-image: url("/image/Clue/UV.png");
+}

@@ -18,6 +18,5 @@ class EntiteFixtures extends Fixture
                 ['name' => $entite['name'],
                 'tips' => $entite['tips']]);
         }
-
     }
 }

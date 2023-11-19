@@ -3,12 +3,16 @@
 {% block title %}Ghost Detector{% endblock %}
 
 {% block body %}
-    <div class="button_clue">azaza</div>
+    <div class="button_clue">
+        {% for clue in clues %}
+            <button type="button" class="clue_button {{ clue.name }}"></button>
+        {% endfor %}
+    </div>
     <div class="lst_entite">
-    {% for entite in entites %}
-        <div class="entite">
-            <img src="{{ asset('image/'~ entite.name ~'.png') }}" alt="{{ entite.name }}"><p>{{ entite.name }}</p>
-        </div>
-    {% endfor %}
+        {% for entite in entites %}
+            <div class="entite">
+                <img src="{{ asset('image/Entite/'~ entite.name ~'.png') }}" alt="{{ entite.name }}"><p>{{ entite.name }}</p>
+            </div>
+        {% endfor %}
     </div>
 {% endblock %}
