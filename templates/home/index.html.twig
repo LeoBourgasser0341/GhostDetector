@@ -3,4 +3,12 @@
 {% block title %}Ghost Detector{% endblock %}
 
 {% block body %}
+    <div class="button_clue">azaza</div>
+    <div class="lst_entite">
+    {% for entite in entites %}
+        <div class="entite">
+            <img src="{{ asset('image/'~ entite.name ~'.png') }}" alt="{{ entite.name }}"><p>{{ entite.name }}</p>
+        </div>
+    {% endfor %}
+    </div>
 {% endblock %}

@@ -1,0 +1,100 @@
+{
+  "entites": [
+    {
+      "name": "Esprit",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Onryo",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Revenant",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Banshee",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Cauchemar",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Démon",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Deogen",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Djinn",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Fantôme",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Goryo",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Hantu",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Jumeaux",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Mimic",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Moroi",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Myling",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Obake",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Ombre",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Oni",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Poltergeist",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Raiju",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Spectre",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Thayé",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Yokai",
+      "tips": "tips_test"
+    },
+    {
+      "name": "Yurei",
+      "tips": "tips_test"
+    }
+  ]
+}
