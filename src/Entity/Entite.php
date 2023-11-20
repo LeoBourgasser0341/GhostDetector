@@ -16,15 +16,34 @@ class Entite
     #[ORM\Column(length: 50)]
     private ?string $name = null;
 
-    #[ORM\Column(length: 255, nullable: true)]
-    private ?string $tips = null;
+    #[ORM\Column]
+    private ?array $tips = null;
 
     #[ORM\Column]
     private ?array $clues = null;
 
+    #[ORM\Column]
+    private ?array $sanities = null;
+
     public function getId(): ?int
     {
         return $this->id;
+    }
+
+    /**
+     * @return array|null
+     */
+    public function getSanities(): ?array
+    {
+        return $this->sanities;
+    }
+
+    /**
+     * @param array|null $sanities
+     */
+    public function setSanities(?array $sanities): void
+    {
+        $this->sanities = $sanities;
     }
 
     public function getName(): ?string
@@ -39,12 +58,12 @@ class Entite
         return $this;
     }
 
-    public function getTips(): ?string
+    public function getTips(): ?array
     {
         return $this->tips;
     }
 
-    public function setTips(?string $tips): static
+    public function setTips(?array $tips): static
     {
         $this->tips = $tips;
 

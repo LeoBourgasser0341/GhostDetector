@@ -17,7 +17,8 @@ class EntiteFixtures extends Fixture
             EntiteFactory::createOne(
                 ['name' => $entite['name'],
                     'tips' => $entite['tips'],
-                    'clues' => $entite['clues']]);
+                    'clues' => $entite['clues'],
+                    'sanities' => $entite['sanities']]);
         }
     }
 }

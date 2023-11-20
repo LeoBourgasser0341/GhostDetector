@@ -2,219 +2,299 @@
   "entites": [
     {
       "name": "Esprit",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "EMF5",
         "SpiritBox",
         "Ecriture"
+      ],
+      "sanities": [
+        " 50%"
       ]
     },
     {
       "name": "Onryo",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "SpiritBox",
         "Orbes",
         "Temperature"
+      ],
+      "sanities": [
+        "100% (Après 3 bougies éteintes)",
+        " 70%",
+        "  0% (Si il y a une bougie allumée à moins de 4m)"
       ]
     },
     {
       "name": "Revenant",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "Ecriture",
         "Orbes",
         "Temperature"
+      ],
+      "sanities": [
+        " 50%"
       ]
     },
     {
       "name": "Banshee",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "UV",
         "Orbes",
         "DOTS"
+      ],
+      "sanities": [
+        " 50% (Sur la santé mentale de la cible)"
       ]
     },
     {
       "name": "Cauchemar",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "SpiritBox",
         "Orbes",
         "Ecriture"
+      ],
+      "sanities": [
+        " 60% (Lumières éteintes)",
+        " 40% (Lumières allumées)"
       ]
     },
     {
       "name": "Démon",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "UV",
         "Ecriture",
         "Temperature"
+      ],
+      "sanities": [
+        "100% (Compétence)",
+        " 70%"
       ]
     },
     {
       "name": "Deogen",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "SpiritBox",
         "Ecriture",
         "DOTS"
+      ],
+      "sanities": [
+        " 40%"
       ]
     },
     {
       "name": "Djinn",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "EMF5",
         "UV",
         "Temperature"
+      ],
+      "sanities": [
+        " 50%"
       ]
     },
     {
       "name": "Fantôme",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "SpiritBox",
         "UV",
         "DOTS"
+      ],
+      "sanities": [
+        " 50%"
       ]
     },
     {
       "name": "Goryo",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "EMF5",
         "UV",
         "DOTS"
+      ],
+      "sanities": [
+        " 50%"
       ]
     },
     {
       "name": "Hantu",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "UV",
         "Orbes",
         "Temperature"
+      ],
+      "sanities": [
+        " 50%"
       ]
     },
     {
       "name": "Jumeaux",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "EMF5",
         "SpiritBox",
         "Temperature"
+      ],
+      "sanities": [
+        " 50%"
       ]
     },
     {
       "name": "Mimic",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "UV",
         "Orbes",
         "SpiritBox",
         "Temperature"
+      ],
+      "sanities": [
+        "???% (Dépend de l'entité imitée)"
       ]
     },
     {
       "name": "Moroi",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "SpiritBox",
         "Ecriture",
         "Temperature"
+      ],
+      "sanities": [
+        " 50%"
       ]
     },
     {
       "name": "Myling",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "UV",
         "EMF5",
         "Ecriture"
+      ],
+      "sanities": [
+        " 50%"
       ]
     },
     {
       "name": "Obake",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "UV",
         "Orbes",
         "EMF5"
+      ],
+      "sanities": [
+        " 50%"
       ]
     },
     {
       "name": "Ombre",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "EMF5",
         "Ecriture",
         "Temperature"
+      ],
+      "sanities": [
+        " 35%",
+        "  0% (Avec un joueur à moins de 3m)"
       ]
     },
     {
       "name": "Oni",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "EMF5",
         "Temperature",
         "DOTS"
+      ],
+      "sanities": [
+        " 50%"
       ]
     },
     {
       "name": "Poltergeist",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "UV",
         "SpiritBox",
         "Ecriture"
+      ],
+      "sanities": [
+        " 50%"
       ]
     },
     {
       "name": "Raiju",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "EMF5",
         "Orbes",
         "DOTS"
+      ],
+      "sanities": [
+        " 65% (Avec équipement électronique allumé proche)",
+        " 50%"
       ]
     },
     {
       "name": "Spectre",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "EMF5",
         "SpiritBox",
         "DOTS"
+      ],
+      "sanities": [
+        " 50%"
       ]
     },
     {
       "name": "Thayé",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "Ecriture",
         "Orbes",
         "DOTS"
+      ],
+      "sanities": [
+        " 75% (Jeune)",
+        " 15% (Vieux)"
       ]
     },
     {
       "name": "Yokai",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "SpiritBox",
         "Orbes",
         "DOTS"
+      ],
+      "sanities": [
+        " 80% (Si on joueur parle proche de lui)",
+        " 50%"
       ]
     },
     {
       "name": "Yurei",
-      "tips": "tips_test",
+      "tips": ["tips_test"],
       "clues": [
         "Temperature",
         "Orbes",
         "DOTS"
+      ],
+      "sanities": [
+        " 50%"
       ]
     }
   ]

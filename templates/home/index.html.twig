@@ -19,7 +19,19 @@
                             {% endfor %}
                         </p>
                     </legend>
-                    <img src="{{ asset('image/Entite/'~ entite.name ~'.png') }}" alt="{{ entite.name }}">
+                    <main>
+                        <img src="{{ asset('image/Entite/'~ entite.name ~'.png') }}" alt="{{ entite.name }}">
+                            <section class="tips_list">
+                                {% for tip in entite.tips %}
+                                    <div class="tip">{{ tip }}</div>
+                                {% endfor %}
+                            </section>
+                            <ul class="sanity">
+                                {% for sanity in entite.sanities %}
+                                    <li>{{ sanity }}</li>
+                                {% endfor %}
+                            </ul>
+                    </main>
                 </fieldset>
         {% endfor %}
     </div>
