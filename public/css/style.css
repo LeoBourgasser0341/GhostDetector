@@ -7,13 +7,23 @@ html{
 body{
     height: 98%;
     display: flex;
-    margin: 1vh;
+    margin: 1em;
     background-color: white;
     flex-direction: column;
 }
 
 p{
-    font-size: 1.75em;
+    font-size: 3em;
+}
+
+fieldset{
+    display: flex;
+}
+img{
+    filter: contrast(200%);
+    height: 10em;
+    width: 10em;
+    margin: 0 1em;
 }
 
 .lst_entite{
@@ -26,44 +36,70 @@ p{
 .entite{
     display: flex;
     flex-direction: row;
+    border-style: solid;
+    border-radius: 2em;
+    background-color: salmon;
+    border-color: black;
+    border-width: 0.25em;
 }
 
+.button_clue{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
 .clue_button{
-    height: 128px;
-    width: 128px;
+    height: 100px;
+    width: 100px;
     background-size: contain;
 }
 
 .clue_button.DOTS{
     background-image: url("/image/Clue/DOTS.png");
+    filter: contrast(200%);
+}
+
+.clue_button.DOTS.inverted, .clue_button.Ecriture.inverted,
+.clue_button.UV.inverted, .clue_button.SpiritBox.inverted,
+.clue_button.Orbes.inverted, .clue_button.Temperature.inverted,
+.clue_button.EMF5.inverted {
+    filter: invert(100%);
 }
 
 .clue_button.Ecriture{
     background-image: url("/image/Clue/Ecriture.png");
+    filter: contrast(200%);
 }
 
 .clue_button.EMF5{
     background-image: url("/image/Clue/EMF5.png");
+    filter: contrast(200%);
 }
 
 .clue_button.Orbes{
     background-image: url("/image/Clue/Orbes.png");
+    filter: contrast(200%);
 }
 
 .clue_button.SpiritBox{
     background-image: url("/image/Clue/SpiritBox.png");
+    filter: contrast(200%);
 }
 
 .clue_button.Temperature{
     background-image: url("/image/Clue/Temperature.png");
+    filter: contrast(200%);
 }
 
 .clue_button.UV{
     background-image: url("/image/Clue/UV.png");
+    filter: contrast(200%);
 }
 
 .img_clue{
-    height: 32px;
-    width: 32px;
+    height: 1.5em;
+    width: 1.5em;
     background-size: contain;
+    filter: contrast(200%);
 }
