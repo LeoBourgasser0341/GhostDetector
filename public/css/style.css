@@ -1,6 +1,7 @@
 html{
     background-color: black;
     height: 100%;
+
 }
 
 body{
@@ -9,6 +10,10 @@ body{
     margin: 1vh;
     background-color: white;
     flex-direction: column;
+}
+
+p{
+    font-size: 1.75em;
 }
 
 .lst_entite{

@@ -4,27 +4,27 @@
       "name": "Esprit",
       "tips": "tips_test",
       "clues": [
-        "UV",
-        "Orbes",
-        "DOTS"
+        "EMF5",
+        "SpiritBox",
+        "Ecriture"
       ]
     },
     {
       "name": "Onryo",
       "tips": "tips_test",
       "clues": [
-        "UV",
+        "SpiritBox",
         "Orbes",
-        "DOTS"
+        "Temperature"
       ]
     },
     {
       "name": "Revenant",
       "tips": "tips_test",
       "clues": [
-        "UV",
+        "Ecriture",
         "Orbes",
-        "DOTS"
+        "Temperature"
       ]
     },
     {
@@ -33,17 +33,16 @@
       "clues": [
         "UV",
         "Orbes",
-        "DOTS",
-        "SpiritBox"
+        "DOTS"
       ]
     },
     {
       "name": "Cauchemar",
       "tips": "tips_test",
       "clues": [
-        "UV",
+        "SpiritBox",
         "Orbes",
-        "DOTS"
+        "Ecriture"
       ]
     },
     {
@@ -51,16 +50,16 @@
       "tips": "tips_test",
       "clues": [
         "UV",
-        "Orbes",
-        "DOTS"
+        "Ecriture",
+        "Temperature"
       ]
     },
     {
       "name": "Deogen",
       "tips": "tips_test",
       "clues": [
-        "UV",
-        "Orbes",
+        "SpiritBox",
+        "Ecriture",
         "DOTS"
       ]
     },
@@ -68,17 +67,17 @@
       "name": "Djinn",
       "tips": "tips_test",
       "clues": [
+        "EMF5",
         "UV",
-        "Orbes",
-        "DOTS"
+        "Temperature"
       ]
     },
     {
       "name": "Fantôme",
       "tips": "tips_test",
       "clues": [
+        "SpiritBox",
         "UV",
-        "Orbes",
         "DOTS"
       ]
     },
@@ -86,8 +85,8 @@
       "name": "Goryo",
       "tips": "tips_test",
       "clues": [
+        "EMF5",
         "UV",
-        "Orbes",
         "DOTS"
       ]
     },
@@ -97,16 +96,16 @@
       "clues": [
         "UV",
         "Orbes",
-        "DOTS"
+        "Temperature"
       ]
     },
     {
       "name": "Jumeaux",
       "tips": "tips_test",
       "clues": [
-        "UV",
-        "Orbes",
-        "DOTS"
+        "EMF5",
+        "SpiritBox",
+        "Temperature"
       ]
     },
     {
@@ -115,16 +114,17 @@
       "clues": [
         "UV",
         "Orbes",
-        "DOTS"
+        "SpiritBox",
+        "Temperature"
       ]
     },
     {
       "name": "Moroi",
       "tips": "tips_test",
       "clues": [
-        "UV",
-        "Orbes",
-        "DOTS"
+        "SpiritBox",
+        "Ecriture",
+        "Temperature"
       ]
     },
     {
@@ -132,8 +132,8 @@
       "tips": "tips_test",
       "clues": [
         "UV",
-        "Orbes",
-        "DOTS"
+        "EMF5",
+        "Ecriture"
       ]
     },
     {
@@ -142,24 +142,24 @@
       "clues": [
         "UV",
         "Orbes",
-        "DOTS"
+        "EMF5"
       ]
     },
     {
       "name": "Ombre",
       "tips": "tips_test",
       "clues": [
-        "UV",
-        "Orbes",
-        "DOTS"
+        "EMF5",
+        "Ecriture",
+        "Temperature"
       ]
     },
     {
       "name": "Oni",
       "tips": "tips_test",
       "clues": [
-        "UV",
-        "Orbes",
+        "EMF5",
+        "Temperature",
         "DOTS"
       ]
     },
@@ -168,15 +168,15 @@
       "tips": "tips_test",
       "clues": [
         "UV",
-        "Orbes",
-        "DOTS"
+        "SpiritBox",
+        "Ecriture"
       ]
     },
     {
       "name": "Raiju",
       "tips": "tips_test",
       "clues": [
-        "UV",
+        "EMF5",
         "Orbes",
         "DOTS"
       ]
@@ -185,8 +185,8 @@
       "name": "Spectre",
       "tips": "tips_test",
       "clues": [
-        "UV",
-        "Orbes",
+        "EMF5",
+        "SpiritBox",
         "DOTS"
       ]
     },
@@ -194,7 +194,7 @@
       "name": "Thayé",
       "tips": "tips_test",
       "clues": [
-        "UV",
+        "Ecriture",
         "Orbes",
         "DOTS"
       ]
@@ -203,7 +203,7 @@
       "name": "Yokai",
       "tips": "tips_test",
       "clues": [
-        "UV",
+        "SpiritBox",
         "Orbes",
         "DOTS"
       ]
@@ -212,7 +212,7 @@
       "name": "Yurei",
       "tips": "tips_test",
       "clues": [
-        "UV",
+        "Temperature",
         "Orbes",
         "DOTS"
       ]
