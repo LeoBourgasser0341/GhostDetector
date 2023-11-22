@@ -21,11 +21,11 @@
                     </legend>
                     <main>
                         <img src="{{ asset('image/Entite/'~ entite.name ~'.png') }}" alt="{{ entite.name }}">
-                            <section class="tips_list">
+                            <ul class="tips_list">
                                 {% for tip in entite.tips %}
-                                    <div class="tip">{{ tip }}</div>
+                                    <li class="tip">{{ tip }}</li>
                                 {% endfor %}
-                            </section>
+                            </ul>
                             <ul class="sanity">
                                 {% for sanity in entite.sanities %}
                                     <li>{{ sanity }}</li>

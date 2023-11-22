@@ -2,7 +2,9 @@
   "entites": [
     {
       "name": "Esprit",
-      "tips": ["tips_test"],
+      "tips": [
+        "L'effet de l'encens lors du nettoyage de la piece dure 3 min au lieu de 1,5 min"
+      ],
       "clues": [
         "EMF5",
         "SpiritBox",
@@ -14,7 +16,11 @@
     },
     {
       "name": "Onryo",
-      "tips": ["tips_test"],
+      "tips": [
+        "L'Onryo ne pourra pas chasser si une bougie est allumé dans le coins",
+        "L'Onryo lancera une chasse au bout de 3 bougies éteintes",
+        "Allumez une bougie et posez un crusifix, si le crusifix brule alors que la bougie est allumé, alors ce n'est pas un Onryo"
+      ],
       "clues": [
         "SpiritBox",
         "Orbes",
@@ -28,7 +34,10 @@
     },
     {
       "name": "Revenant",
-      "tips": ["tips_test"],
+      "tips": [
+        "Le Revenant se deplace lentement quand aucun joueur n'est détecté",
+        "Le Revenant se deplace rapidement lors qu'il poursuit un joueur"
+      ],
       "clues": [
         "Ecriture",
         "Orbes",
@@ -40,7 +49,11 @@
     },
     {
       "name": "Banshee",
-      "tips": ["tips_test"],
+      "tips": [
+        "La Banshee a 33% de chance d'emettre un cri spécifique au microphone parabolique",
+        "La Banshee détermine une cible en début de partie, elle ne la poursuivra que elle si elle est à l'intérieur",
+        "Si un ou plusieurs joueurs à faible santé mentale sont à l'intérieur mais qu'un joueur à hausse santé mentale est à l'extérieur et qu'aucune chasse n'est lançée, cela peut signifier que c'est une banshee et que ce joueur est la cible"
+      ],
       "clues": [
         "UV",
         "Orbes",
@@ -52,7 +65,9 @@
     },
     {
       "name": "Cauchemar",
-      "tips": ["tips_test"],
+      "tips": [
+        "Le Cauchemar n'allumera jamais une lumière (cela ne prend pas en compte les autres équipements électronique)"
+      ],
       "clues": [
         "SpiritBox",
         "Orbes",
@@ -65,7 +80,11 @@
     },
     {
       "name": "Démon",
-      "tips": ["tips_test"],
+      "tips": [
+        "20s de cooldown entre les chasses au lieu de 25s",
+        "L'effet de l'encens lors du nettoyage de la piece dure 1 min au lieu de 1,5 min",
+        "La portée du crusifix est 50% plus élevée"
+      ],
       "clues": [
         "UV",
         "Ecriture",
@@ -78,7 +97,12 @@
     },
     {
       "name": "Deogen",
-      "tips": ["tips_test"],
+      "tips": [
+        "La spirit box est une preuve obligatoire : ne pas l'avoir dans de hautes difficultées exclut le Deogen",
+        "Le Deogen saura toujours où vous êtes, se cacher ne sert à rien",
+        "Le Deogen se déplace lentement à proximité d'un joueur",
+        "Le Deogen se déplace rapidement lors qu'il est loin des joueurs"
+      ],
       "clues": [
         "SpiritBox",
         "Ecriture",
@@ -90,7 +114,11 @@
     },
     {
       "name": "Djinn",
-      "tips": ["tips_test"],
+      "tips": [
+        "Compétence du Djinn : draine fortement la santé mentale des joueurs si le disjoncteur est allumé",
+        "N'éteindra jamais un disjoncteur, mais peut le faire surcharger",
+        "Si un EMF sonne sur le disjoncteur mais que rien ne se passe, cela peut signifier que le Djinn utilise sa compétance"
+      ],
       "clues": [
         "EMF5",
         "UV",
@@ -102,7 +130,10 @@
     },
     {
       "name": "Fantôme",
-      "tips": ["tips_test"],
+      "tips": [
+        "Prendre une photo du Fantôme pendant une apparition le fera disparaitre le Fantôme, mais ne mettra pas fin à la chasse",
+        "Le Fantôme restera invisible plus longtemps pendant les clignotements lors d'une chasse"
+      ],
       "clues": [
         "SpiritBox",
         "UV",
@@ -114,7 +145,11 @@
     },
     {
       "name": "Goryo",
-      "tips": ["tips_test"],
+      "tips": [
+        "Le DOTS est une preuve obligatoire : ne pas l'avoir dans de hautes difficultées exclut le Goryo",
+        "Ne changera jamais de piece favorite",
+        "Ne peut être vu au DOTS qu'à travers une caméra et si personne n'est dans la piece de l'entité"
+      ],
       "clues": [
         "EMF5",
         "UV",
@@ -126,7 +161,14 @@
     },
     {
       "name": "Hantu",
-      "tips": ["tips_test"],
+      "tips": [
+        "La température glacial est une preuve obligatoire : ne pas l'avoir dans de hautes difficultées exclut le Hantu",
+        "Le Hantu se déplace rapidement dans les pieces froides",
+        "Le Hantu se déplace lentement dans les pieces chaudes",
+        "N'allumera jamais le disjoncteur",
+        "2x plus succeptible d'éteindre le disjoncteur que les autres entités",
+        "L'Hantu emettra un souffle glacial si il chasse pendant que le disjoncteur est éteint"
+      ],
       "clues": [
         "UV",
         "Orbes",
@@ -138,7 +180,9 @@
     },
     {
       "name": "Jumeaux",
-      "tips": ["tips_test"],
+      "tips": [
+        "Trouver des preuves ou des objets déplacés de façon récurente dans une autre pièce que celle de l'entité peut signifier des Jumeaux"
+      ],
       "clues": [
         "EMF5",
         "SpiritBox",
@@ -150,7 +194,11 @@
     },
     {
       "name": "Mimic",
-      "tips": ["tips_test"],
+      "tips": [
+        "Les orbes fantômatiques sont des preuves obligatoires : ne pas les avoir dans de hautes difficultées exclut le Mimic",
+        "Imite le comporement des autres entités, avoir un comportement et des preuves ne coïncidents pas signifie un Mimic",
+        "Le Mimic change d'imitation toutes les 30s à 2min, remarquer plusieurs comportements dans une partie signifie un Mimic"
+      ],
       "clues": [
         "UV",
         "Orbes",
@@ -163,7 +211,13 @@
     },
     {
       "name": "Moroi",
-      "tips": ["tips_test"],
+      "tips": [
+        "La spirit box est une preuve obligatoire : ne pas l'avoir dans de hautes difficultées exclut le Moroi",
+        "Le Moroi maudira les joueurs à travers la spirit box et le microphone parabolique, faisant chuter leur santé mentale deux fois plus vite",
+        "Le Moroi sera aveuglé plus longtemps quand de l'encens lui est jeté dessus",
+        "Le Moroi se déplacera plus rapidement quand la santé mentale est faible",
+        "Le Moroi se déplacera plus lentement quand la santé mentale est élevé"
+      ],
       "clues": [
         "SpiritBox",
         "Ecriture",
@@ -175,7 +229,9 @@
     },
     {
       "name": "Myling",
-      "tips": ["tips_test"],
+      "tips": [
+        "Les bruits de pas et autres sons ne sont audible que de très proches (12m au lieu de 20m)"
+      ],
       "clues": [
         "UV",
         "EMF5",
@@ -187,7 +243,14 @@
     },
     {
       "name": "Obake",
-      "tips": ["tips_test"],
+      "tips": [
+        "Les empreintes sont des preuves obligatoires : ne pas les avoir dans de hautes difficultées exclut l'Obake",
+        "16,7% de laisser un motif unique sur les empreintes",
+        "Peut laisser une empreinte à 6 doigts au lieu de 5",
+        "Peut laisser deux empreintes sur les intérupteurs au lieu de une",
+        "Peut laisser une empreinte à 5 empreintes sur les claviers et portes des cellules de la prison au lieu de 4",
+        "Pendant une chasse, l'Obake changera au moins une fois de skin entre deux clignotement"
+      ],
       "clues": [
         "UV",
         "Orbes",
