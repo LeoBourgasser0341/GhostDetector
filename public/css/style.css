@@ -104,12 +104,18 @@ fieldset.entite{
     filter: contrast(200%);
 }
 
-section.tips_list{
+ul.tips_list{
     flex-grow: 1;
+    border-right-style: solid;
 }
 
 main{
     flex-grow: 1;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img_clue.inverted {
+    filter: invert(100%);
 }

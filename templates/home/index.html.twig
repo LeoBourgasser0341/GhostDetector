@@ -5,12 +5,12 @@
 {% block body %}
     <div class="button_clue">
         {% for clue in clues %}
-            <button type="button" class="clue_button {{ clue.name }}" onclick="toggleInvert(this)"></button>
+            <button type="button" class="clue_button {{ clue.name }}" onclick="toggleInvert(this)" data-alt="{{ clue.name }}"></button>
         {% endfor %}
     </div>
     <div class="lst_entite">
         {% for entite in entites %}
-                <fieldset class="entite">
+                <fieldset class="entite" data-clues="{{ entite.clues | join(',') }}" data-name="{{ entite.name }}">
                     <legend>
                         <p>
                             {{ entite.name }}
