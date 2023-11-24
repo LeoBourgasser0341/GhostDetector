@@ -262,7 +262,10 @@
     },
     {
       "name": "Ombre",
-      "tips": ["tips_test"],
+      "tips": [
+        "Ne peut pas interagir avec les objets quand des joueurs sont dans la même salle",
+        "Fortes chances d'apparaitre sous forme d'ombre lors des apparitions"
+      ],
       "clues": [
         "EMF5",
         "Ecriture",
@@ -275,7 +278,12 @@
     },
     {
       "name": "Oni",
-      "tips": ["tips_test"],
+      "tips": [
+        "Fortes chances d'apparaitre sous forme physique lors des apparitions",
+        "Perte de la santé mentale x2 lors d'une collision pendant une apparition",
+        "L'Oni restera invisible moins longtemps pendant les clignotements lors d'une chasse",
+        "Ne provoquera jamais de souffle"
+      ],
       "clues": [
         "EMF5",
         "Temperature",
@@ -287,7 +295,12 @@
     },
     {
       "name": "Poltergeist",
-      "tips": ["tips_test"],
+      "tips": [
+        "Le Poltergeist est capable de jeter plusieurs objets à la fois",
+        "Pendant une chasse, le Poltergeist lancera un objet toutes les 0,5s",
+        "Le Poltergeist est la SEULE entité capable de jeter des objets dans une piece éclairée",
+        "Le Poltergeist est capable de jeter les objets beaucoup plus loin que les autres entitées"
+      ],
       "clues": [
         "UV",
         "SpiritBox",
@@ -299,7 +312,10 @@
     },
     {
       "name": "Raiju",
-      "tips": ["tips_test"],
+      "tips": [
+        "Le Raiju se deplace rapidement lorsqu'il est à proximité d'équipement électronique",
+        "Les équipements électroniques sont interférés à 15m au lieu de 10m"
+      ],
       "clues": [
         "EMF5",
         "Orbes",
@@ -312,7 +328,9 @@
     },
     {
       "name": "Spectre",
-      "tips": ["tips_test"],
+      "tips": [
+        "Ne marchera jamais dans le sel"
+      ],
       "clues": [
         "EMF5",
         "SpiritBox",
@@ -324,7 +342,11 @@
     },
     {
       "name": "Thayé",
-      "tips": ["tips_test"],
+      "tips": [
+        "Le Thayé viellira de plus en plus quand les joueurs resterons dans la même piece que lui",
+        "2x plus d'activités quand il est jeune",
+        "2x moins d'activités quand il est vieux"
+      ],
       "clues": [
         "Ecriture",
         "Orbes",
@@ -337,7 +359,11 @@
     },
     {
       "name": "Yokai",
-      "tips": ["tips_test"],
+      "tips": [
+        "N'entendra pas les voix éloignées",
+        "Activité paranormale accrue quand des joueurs parlent proche du Yokai",
+        "Le Yokai est capable de lancer des chasses très tôt si des joueurs parlent proche de lui"
+      ],
       "clues": [
         "SpiritBox",
         "Orbes",
@@ -350,7 +376,10 @@
     },
     {
       "name": "Yurei",
-      "tips": ["tips_test"],
+      "tips": [
+        "Est capable de fermer les portes de façon brusque",
+        "Si c'est une porte de sortie et qu'il n'y a ni apparition, ni chasse, alors c'est un Yurei"
+      ],
       "clues": [
         "Temperature",
         "Orbes",
