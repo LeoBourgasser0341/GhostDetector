@@ -1,38 +1,74 @@
-function toggleInvert(element) {
-    if (element.classList.contains('inverted')) {
-        element.classList.remove('inverted');
-    } else {
-        element.classList.add('inverted');
+function toggleInvert(bouton) {
+    switchButton(bouton);
+    switchAllClue(bouton);
+    sortEntite(bouton);
+}
+
+function switchButton(bouton)
+{
+    if (bouton.classList.contains('enable')) {
+        bouton.classList.remove('enable');
+        bouton.classList.add('disable');
     }
-    const altValue = element.getAttribute('data-alt');
+    else if(bouton.classList.contains('disable')){
+        bouton.classList.remove('disable');
+    }
+    else {
+        bouton.classList.add('enable');
+    }
+}
+
+function switchAllClue(bouton)
+{
+    const altValue = bouton.getAttribute('data-alt');
 
     const images = document.querySelectorAll(`.img_clue[alt="${altValue}"]`);
 
     images.forEach(function(img) {
-        if (img.classList.contains('inverted')) {
-            img.classList.remove('inverted');
-        } else {
-            img.classList.add('inverted');
-        }
+        switchClue(bouton,img,altValue);
     });
+}
+function switchClue(bouton,image,clue)
+{
+    if (bouton.classList.contains('enable')) {
+        image.src = `/image/Clue/enable/${clue}.png`;
+    }
+    else if(bouton.classList.contains('disable')){
+        image.src = `/image/Clue/disable/${clue}.png`;
+    }
+    else {
+        image.src = `/image/Clue/${clue}.png`;
+    }
+}
 
-    const buttons = document.querySelectorAll("button");
-    let button_pressed =[];
-    buttons.forEach(function (but){
-            if(but.classList.contains('inverted')){
-                button_pressed.push(but.getAttribute('data-alt'))
-            }
-    })
-    console.log(button_pressed);
-
+function sortEntite(bouton)
+{
     const entites = document.querySelectorAll('.entite');
     entites.forEach(function (ent) {
         const clues = ent.getAttribute('data-clues').split(',');
         ent.style.display = 'block'
-        button_pressed.forEach(function(pressed) {
-            if (!clues.includes(pressed.trim())) {
+        getBoutons("enable").forEach(function(bouton) {
+            if (!clues.includes(bouton.trim())) {
+                ent.style.display = 'none';
+            }
+        })
+
+        getBoutons("disable").forEach(function(bouton) {
+            if (clues.includes(bouton.trim())) {
                 ent.style.display = 'none';
             }
         })
     })
+}
+
+function getBoutons(mode)
+{
+    const buttons = document.querySelectorAll("button");
+    let button_pressed =[];
+    buttons.forEach(function (but){
+        if(but.classList.contains(mode)){
+            button_pressed.push(but.getAttribute('data-alt'))
+        }
+    })
+    return button_pressed;
 }
